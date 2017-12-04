@@ -46,6 +46,7 @@ augroup hyperstyle
   au FileType less call <SID>enable(';')
   au FileType sass call <SID>enable('')
   au FileType stylus call <SID>enable('')
+  au FileType jsx call <SID>enable('')
 augroup END
 
 " Hacky fix to make things work with auto-pairs.
